@@ -32,7 +32,7 @@ class Foods extends React.Component {
         { this.state.fabOverlay && (
           <View style={{width: '100%', height: '100%', position: 'absolute', backgroundColor: 'rgba(0, 0, 0, 0.5)'}}></View>
         )}
-        <MainFab toggleFabOverlay={this.toggleFabOverlay} />
+        <MainFab navigate={this.props.navigate} toggleFabOverlay={this.toggleFabOverlay} />
       </Container>
     );
   }

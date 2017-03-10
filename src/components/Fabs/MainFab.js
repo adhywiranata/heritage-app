@@ -22,7 +22,10 @@ class MainFab extends React.Component {
         }}
       >
         {this.state.active ? (<Icon name="remove" />) : (<Icon name="add" />) }
-        <Button style={{ backgroundColor: '#65C6BB' }}>
+        <Button
+          onPress={() => this.props.navigate('Camera')}
+          style={{ backgroundColor: '#65C6BB' }}
+        >
           <Icon name="camera" />
         </Button>
         <Button style={{ backgroundColor: '#52B3D9' }}>

@@ -17,7 +17,7 @@ class FoodsScreen extends React.Component {
   render() {
     const { navigate } = this.props.navigation;
     return (
-      <Foods />
+      <Foods navigate={navigate} />
     );
   }
 }

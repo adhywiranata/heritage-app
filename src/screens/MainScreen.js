@@ -17,7 +17,7 @@ class MainScreen extends React.Component {
   render() {
     const { navigate } = this.props.navigation;
     return (
-      <Places />
+      <Places navigate={navigate} />
     );
   }
 }
