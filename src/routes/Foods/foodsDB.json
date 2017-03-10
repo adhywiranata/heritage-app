@@ -1,0 +1,18 @@
+{
+  "foods": [
+    {
+      "id": 1,
+      "title": "Nasi Rendang Padang",
+      "description": "lorem ipsum dolor sit amet",
+      "photoUrl": "https://static.qraved.co/images/journal/data/2016/05/23/sariratu.jpg",
+      "location": "Magelang, Jawa Tengah",
+      "user": "Budi Nur Cahyo",
+      "likes": 100,
+      "tags": [
+        "heritage", "indonesia", "buddhism", "travel"
+      ],
+      "createdAt": "Fri Mar 10 2017 19:51:49 GMT+0700 (WIB)",
+      "updatedAt": null,
+    }
+  ]
+}
