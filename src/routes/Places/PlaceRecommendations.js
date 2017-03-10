@@ -12,7 +12,7 @@ const PlaceRecommendations = props => (
         <Content style={{padding: 10}}>
           <Text style={{fontSize: 14}}>5 of your friends visited Indonesia. Explore Indonesia's breathtaking archipelago!</Text>
         </Content>
-        <View style={{
+        <TouchableOpacity style={{
             backgroundColor: '#52B3D9',
             width: 50,
             height: 50,
@@ -20,7 +20,7 @@ const PlaceRecommendations = props => (
             alignItems: 'center',
             justifyContent: 'center' }} >
           <Icon name="paper-plane" style={{color: '#FFFFFF'}}/>
-        </View>
+        </TouchableOpacity>
       </View>
       </Body>
     </CardItem>

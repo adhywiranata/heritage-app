@@ -16,7 +16,7 @@ const PhotoCardsUI = props => (
         />
       <Content style={{width: '100%', padding: 10, paddingTop: 10}}>
         <Text style={{fontSize: 14, color: '#666', paddingLeft: 10}}>{props.user}</Text>
-        <H2 style={{fontSize: 21, marginTop: 5, paddingLeft: 10}}>{props.title}</H2>
+        <H2 style={{fontSize: 18, marginTop: 5, paddingLeft: 10}}>{props.title}</H2>
         <View style={{
             height: 1,
             width: '100%',
