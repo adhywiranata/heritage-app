@@ -10,6 +10,7 @@ import SearchIconUI from '../components/SearchIconUI';
 const MainScreenNavigator = TabNavigator({
   Main: {screen: MainScreen},
   Foods: {screen: FoodsScreen},
+  Stories: {screen: FoodsScreen},
   Profile: {screen: ProfileScreen},
 }, { tabBarOptions: {
   activeTintColor: '#019875',
