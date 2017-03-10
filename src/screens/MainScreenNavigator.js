@@ -3,12 +3,13 @@ import { Text } from 'react-native';
 import { TabNavigator } from 'react-navigation';
 
 import MainScreen from './MainScreen';
+import FoodsScreen from './FoodsScreen';
 import ProfileScreen from './ProfileScreen';
 import SearchIconUI from '../components/SearchIconUI';
 
 const MainScreenNavigator = TabNavigator({
   Main: {screen: MainScreen},
-  Stories: {screen: MainScreen},
+  Foods: {screen: FoodsScreen},
   Profile: {screen: ProfileScreen},
 }, { tabBarOptions: {
   activeTintColor: '#019875',

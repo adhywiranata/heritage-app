@@ -9,7 +9,7 @@ import MainFab from '../components/Fabs/MainFab';
 
 const deviceHeight = Dimensions.get('window').height;
 
-class MainScreen extends React.Component {
+class FoodsScreen extends React.Component {
   static navigationOptions = {
     title: 'Foods',
   };
@@ -22,4 +22,4 @@ class MainScreen extends React.Component {
   }
 }
 
-export default MainScreen;
+export default FoodsScreen;

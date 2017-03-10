@@ -13,6 +13,34 @@
       ],
       "createdAt": "Fri Mar 10 2017 19:51:49 GMT+0700 (WIB)",
       "updatedAt": null,
+    },
+    {
+      "id": 2,
+      "title": "Nasi Bali",
+      "description": "lorem ipsum dolor sit amet",
+      "photoUrl": "http://3.bp.blogspot.com/-0U9lYmY21is/VXE07LPngGI/AAAAAAAACCg/8VghbalcLj4/s1600/nasi%2Bbali%2Blengkap.jpg",
+      "location": "Magelang, Jawa Tengah",
+      "user": "Budi Nur Cahyo",
+      "likes": 100,
+      "tags": [
+        "heritage", "indonesia", "buddhism", "travel"
+      ],
+      "createdAt": "Fri Mar 10 2017 19:51:49 GMT+0700 (WIB)",
+      "updatedAt": null,
+    },
+    {
+      "id": 3,
+      "title": "Orek Tempe",
+      "description": "lorem ipsum dolor sit amet",
+      "photoUrl": "http://www.bango.co.id/gfx/recipes/61.jpg",
+      "location": "Magelang, Jawa Tengah",
+      "user": "Budi Nur Cahyo",
+      "likes": 100,
+      "tags": [
+        "heritage", "indonesia", "buddhism", "travel"
+      ],
+      "createdAt": "Fri Mar 10 2017 19:51:49 GMT+0700 (WIB)",
+      "updatedAt": null,
     }
   ]
 }
