@@ -63,14 +63,14 @@ class AuthScreen extends React.Component {
                   }, 1000);
                 }}
               >
-                <Text style={{color: '#FFFFFF'}}>Masuk</Text>
+                <Text style={{color: '#FFFFFF'}}>Login</Text>
               </Button>
               <Button
                 block
                 style={{backgroundColor: '#F89406', marginTop: 10}}
                 onPress={() => navigate('Main')}
               >
-                <Text style={{color: '#FFFFFF'}}>Daftar</Text>
+                <Text style={{color: '#FFFFFF'}}>Sign Up</Text>
               </Button>
             </View>
           )}

@@ -41,6 +41,48 @@
       ],
       "createdAt": "Fri Mar 10 2017 19:51:49 GMT+0700 (WIB)",
       "updatedAt": null,
+    },
+    {
+      "id": 4,
+      "title": "Sunset Borobudur",
+      "description": "lorem ipsum dolor sit amet",
+      "photoUrl": "https://rifkymedia.files.wordpress.com/2010/01/borobudur1.jpg",
+      "location": "Magelang, Jawa Tengah",
+      "user": "Budi Nur Cahyo",
+      "likes": 100,
+      "tags": [
+        "heritage", "indonesia", "buddhism", "travel"
+      ],
+      "createdAt": "Fri Mar 10 2017 19:51:49 GMT+0700 (WIB)",
+      "updatedAt": null,
+    },
+    {
+      "id": 5,
+      "title": "Rumah Gadang Padang",
+      "description": "lorem ipsum dolor sit amet",
+      "photoUrl": "http://2.bp.blogspot.com/-mLolDCSOZzQ/T4rfQB7i81I/AAAAAAAACjk/xPlDUKMUUwc/s1600/Pagaruyung.jpg",
+      "location": "Magelang, Jawa Tengah",
+      "user": "Budi Nur Cahyo",
+      "likes": 100,
+      "tags": [
+        "heritage", "indonesia", "buddhism", "travel"
+      ],
+      "createdAt": "Fri Mar 10 2017 19:51:49 GMT+0700 (WIB)",
+      "updatedAt": null,
+    },
+    {
+      "id": 6,
+      "title": "Bali Trip!",
+      "description": "lorem ipsum dolor sit amet",
+      "photoUrl": "https://thegoldenscopeit.files.wordpress.com/2014/08/abali-tempio-sullacqua.jpg",
+      "location": "Magelang, Jawa Tengah",
+      "user": "Budi Nur Cahyo",
+      "likes": 100,
+      "tags": [
+        "heritage", "indonesia", "buddhism", "travel"
+      ],
+      "createdAt": "Fri Mar 10 2017 19:51:49 GMT+0700 (WIB)",
+      "updatedAt": null,
     }
   ]
 }

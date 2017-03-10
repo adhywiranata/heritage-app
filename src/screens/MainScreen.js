@@ -11,7 +11,7 @@ const deviceHeight = Dimensions.get('window').height;
 
 class MainScreen extends React.Component {
   static navigationOptions = {
-    title: 'Main',
+    title: 'Places',
   };
 
   render() {
