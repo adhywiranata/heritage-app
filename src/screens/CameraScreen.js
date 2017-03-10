@@ -3,11 +3,13 @@ import {
   AppRegistry,
   Dimensions,
   StyleSheet,
+  TouchableOpacity,
   Text,
   TouchableHighlight,
   View
 } from 'react-native';
 import Camera from 'react-native-camera';
+import { Icon } from 'native-base';
 
 class CameraScreen extends Component {
   render() {
@@ -19,7 +21,9 @@ class CameraScreen extends Component {
           }}
           style={styles.preview}
           aspect={Camera.constants.Aspect.fill}>
-          <Text style={styles.capture} onPress={this.takePicture.bind(this)}>[CAPTURE]</Text>
+          <TouchableOpacity style={styles.capture} onPress={this.takePicture.bind(this)}>
+            <Icon name="camera" style={{color: '#FFFFFF', fontSize: 40}} />
+          </TouchableOpacity>
         </Camera>
       </View>
     );
@@ -43,13 +47,26 @@ const styles = StyleSheet.create({
     alignItems: 'center'
   },
   capture: {
-    flex: 0,
-    backgroundColor: '#fff',
-    borderRadius: 5,
-    color: '#000',
+    backgroundColor: 'rgba(0, 0, 0, 0.5)',
+    borderRadius: 50,
     padding: 10,
-    margin: 40
+    width: 100,
+    height: 100,
+    margin: 40,
+    borderWidth: 5,
+    justifyContent: 'center',
+    alignItems: 'center',
+    borderColor: 'rgba(255, 255, 255, 0.5)'
+  },
+  cameraIcon: {
+    color: '#FFFFFF',
   }
 });
+
+CameraScreen.navigationOptions = {
+  header: {
+    visible: false,
+  }
+}
 
 export default CameraScreen;
