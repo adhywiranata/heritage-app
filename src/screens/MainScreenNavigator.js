@@ -11,12 +11,13 @@ const MainScreenNavigator = TabNavigator({
   Stories: {screen: MainScreen},
   Profile: {screen: ProfileScreen},
 }, { tabBarOptions: {
-  activeTintColor: '#FFFFFF',
+  activeTintColor: '#019875',
   labelStyle: {
-    fontSize: 14,
+    fontSize: 12,
+    color: '#353535',
   },
   style: {
-    backgroundColor: '#353535',
+    backgroundColor: '#F5F5F5',
   },
 }});
 
