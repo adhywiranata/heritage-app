@@ -3,6 +3,7 @@ import {
   View, Text, Image,
 } from 'react-native';
 import { H1, H2, Button, Spinner } from 'native-base';
+import HeritageWall from './wall.png';
 
 class AuthScreen extends React.Component {
   static navigationOptions = {
@@ -28,14 +29,14 @@ class AuthScreen extends React.Component {
       this.setState({
         isLoading: false,
       })
-    }, 2000)
+    }, 5000)
   }
 
   render() {
     const { navigate } = this.props.navigation;
     return (
       <Image
-        source={{uri: 'http://blamethemonkey.com/wp-content/uploads/2014/01/Elia-Locardi-Travel-Photography-Beyond-Borobudur-Java-Indonesia-1440-WM-DM-60q.jpg'}}
+        source={HeritageWall}
         style={{width:'100%', height: '100%', resizeMode: 'cover'}}
       >
         <View style={{
