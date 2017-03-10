@@ -4,7 +4,7 @@ import {
 } from 'react-native';
 import { Container } from 'native-base';
 
-import Photos from '../routes/Photos';
+import Places from '../routes/Places';
 import MainFab from '../components/Fabs/MainFab';
 
 const deviceHeight = Dimensions.get('window').height;
@@ -17,7 +17,7 @@ class MainScreen extends React.Component {
   render() {
     const { navigate } = this.props.navigation;
     return (
-      <Photos />
+      <Places />
     );
   }
 }

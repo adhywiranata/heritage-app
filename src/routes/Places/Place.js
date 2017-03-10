@@ -2,7 +2,7 @@ import React from 'react';
 import { Image, View, TouchableOpacity } from 'react-native';
 import { Content, Card, CardItem, Body, Text, H2, H3, Icon } from 'native-base';
 
-const Photo = props => (
+const Place = props => (
   <Card>
     <CardItem style={{padding: 0}}>
       <Body style={{padding: 0}}>
@@ -45,4 +45,4 @@ const Photo = props => (
   </Card>
 );
 
-export default Photo;
+export default Place;
