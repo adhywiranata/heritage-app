@@ -12,11 +12,14 @@ class MainFab extends React.Component {
   render() {
     return (
       <Fab
-          active={this.state.active}
-          direction="up"
-          style={{ backgroundColor: '#019875' }}
-          position="bottomRight"
-          onPress={() => this.setState({ active: !this.state.active })}
+        active={this.state.active}
+        direction="up"
+        style={{ backgroundColor: '#019875' }}
+        position="bottomRight"
+        onPress={() => {
+          this.setState({ active: !this.state.active});
+          this.props.toggleFabOverlay();
+        }}
       >
         {this.state.active ? (<Icon name="remove" />) : (<Icon name="add" />) }
         <Button style={{ backgroundColor: '#65C6BB' }}>
